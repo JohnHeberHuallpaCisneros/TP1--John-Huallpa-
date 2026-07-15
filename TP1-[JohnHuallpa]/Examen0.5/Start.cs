@@ -38,8 +38,6 @@ namespace Examen0._5
             Configuracion cfg = new Configuracion();
             Simulacion sim = new Simulacion(cfg);
 
-            sim.GenerarCopo();
-
             while (true)
             {
                 sim.ActualizarAbajo();
